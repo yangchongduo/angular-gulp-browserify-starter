@@ -1,6 +1,6 @@
 # AngularJS-Gulp-Browserify 应用启动器
 
-本应用启动器，以最佳实践构造。  
+本应用启动器，以最佳实践打造。  
 特别地，我们的目录结构与官方标准不同，而是遵循了以下设计规范：  
 https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub
 
