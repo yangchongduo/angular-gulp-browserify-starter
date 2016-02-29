@@ -216,10 +216,10 @@ module.exports = angular.module('modules',
 * CSS 文件, 请在 *VendorCSS* 工作流中添加路径。
 * JS 文件, 请在 *VendorJS* 工作流中添加路径。
 
-```vendor.js```涵括所有第三方库/框架，有别于仅仅打包了自己代码的```bundle.js```。当然，你也可以把一切东西都打包进```bundle.js```，只是这样子你会在打包上有速度上的损失。
+```vendor.js``` 涵括所有第三方库/框架，有别于仅仅打包了自己代码的```bundle.js``` 。当然，你也可以把一切东西都打包进```bundle.js``` ，只是这样子你会在打包上有速度上的损失。
 
 
-```bundle.js```是不断开发迭代的，而```vendor.js```则应为高度静态不变的 (除了库/框架文件的升级以及增减)。由此可见，```bundle.js``` 应该尽可能保持轻量，以加快browserify的打包。
+```bundle.js``` 是不断开发迭代的，而```vendor.js``` 则应为高度静态不变的 (除了库/框架文件的升级以及增减)。由此可见，```bundle.js```  应该尽可能保持轻量，以加快browserify的打包。
 
 
 ### 贡献
